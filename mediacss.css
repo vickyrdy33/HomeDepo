@@ -1,0 +1,307 @@
+#mynavbar-content ul > li > a > span, #mynavbar-content ul > li > a:hover > span, #mynavbar-content ul > li > a:focus > span{
+	display: block;
+    text-align: center;
+    color: #fc5f22;
+    line-height: 0;
+    top: 9px;
+}
+.navbar-default ul.navbar-nav > li > a, .navbar-default ul.navbar-nav > li > a:hover, .navbar-default ul.navbar-nav > li > a:focus{
+	padding: 5px 20px 0 20px;
+}
+.navbar-header h3{
+	 display: none;
+	 margin:15px;
+ }
+
+/** sowmya 130816   part1 start **/
+.btn-with-popup{
+	display: inline-block;
+    position: relative;
+    padding-top:0 !important;
+}	
+.btn-with-popup div{
+	padding:0;
+}
+.btn-with-popup > button{
+	margin: 0;
+    padding: 5px 15px;
+    background: #fc5f22;
+    border: 2px solid #fc5f22;
+}
+.btn-with-popup.pda-btn-with-popup{
+	margin: 10px 0 10px 5px 
+}
+.btn-popup{
+	position: absolute;
+    bottom: 135%;
+    width: 180%;
+    right:5%;
+    text-align: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    z-index: 2;
+}
+.arrow_box {
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #ffffff;
+	border-width: 18px 11px;
+	margin-left: 46px;
+}
+.arrow_box:before {
+	border-color: rgba(204, 204, 204, 0);
+	border-top-color: #cccccc;
+	border-width: 20px 12px;
+	margin-left: 45px;
+}
+.btn-popup .panel-group{
+	margin:0;
+}
+.btn-popup .panel-heading{
+	border:0;
+	padding: 10px 15px;
+}
+.btn-popup .panel{
+	border:0;
+	border-bottom:1px solid #CCCCCC;
+}
+.btn-popup .panel:last-child{
+	border:0;
+}
+.btn-popup .panel-title a{
+	font-size:14px;
+	font-weight:normal;
+}
+.btn-popup .panel-title a .glyphicon{
+	margin-right:20px;
+}
+.btn-popup .panel button{
+	background: none;
+    border: 2px solid #fc5f22;
+    color: #fc5f22;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 0!important;
+    width:auto;
+    margin: 0 5px;
+}
+.btn-popup form{
+	padding: 0;
+    margin: 0 auto 20px;
+}
+.btn-popup .navbar-form .form-control{
+	width: 75%;
+	display: inline-block;
+}
+.btn-popup .bp-search-btn{
+	display: inline-block;
+    width: 22% !important;
+    margin: 0 !important;
+    height: 34px;
+    vertical-align: top;
+}
+.btn-popup .rating-select{
+	padding-bottom:20px;
+}
+.rating-select .btn-sm{
+	padding: 5px 8px;
+}
+.rating-select .bp-rating-name, .rating-select .bp-rating-name:hover{
+	color:transparent;
+	background:transparent;
+}
+.rating-select .btn-warning:hover ~ .bp-rating-name::before, .rating-select .btn-warning.selected ~ .bp-rating-name::before{
+	color:#4a4a4a;
+	font-style:italic;
+}
+.one-star:hover ~ .bp-rating-name::before, .one-star.selected  ~ .bp-rating-name::before{
+	content:'Terrible';
+}
+.two-star:hover ~ .bp-rating-name::before, .two-star.selected ~ .bp-rating-name::before{
+	content:'Bad';
+}
+.three-star:hover ~ .bp-rating-name::before, .three-star.selected ~ .bp-rating-name::before{
+	content:'Ok';
+}
+.four-star:hover ~ .bp-rating-name::before, .four-star.selected ~ .bp-rating-name::before{
+	content:'Good';
+}
+.five-star:hover ~ .bp-rating-name::before, .five-star.selected ~ .bp-rating-name::before{
+	content:'Great';
+}
+.btn-popup-close{
+	font-size: 14px;
+    padding: 8px 15px !important;
+    text-align: center;
+    background: #E6E6E6;
+    color: #848484;
+    cursor: pointer;
+}
+.btn-popup .panel-heading{
+	cursor:pointer;
+}
+.btn-popup .panel-heading a{
+	text-decoration: none;
+}
+.btn-popup .panel-body{
+	padding:15px !important;
+}
+.btn-with-popup .btn-popup{
+	display:none;
+}
+.btn-with-popup.open-popup .btn-popup{
+	display:block;
+}
+.btn-popup .panel-title{
+	position:relative;
+}
+.btn-popup .panel-title .glyphi-arrow{
+	position: absolute;
+	right:0;
+	color: #848484;
+}
+.btn-popup .panel-heading .glyphi-arrow:before{
+	content: "\e113";
+}
+.btn-popup .panel-heading.collapsed .glyphi-arrow:before{
+	content: "\e114";
+}
+.btn-popup textarea.form-control{
+	height:auto !important;
+}
+.hd-btn-group > .btn-secondary, .hd-btn-group > .btn-secondary:hover{
+	width:auto;
+	vertical-align:top;
+}
+/** sowmya -- 130816 -- part1 end **/
+
+@media only screen and (min-width:960px){
+
+}
+@media only screen and (min-width:1440px){
+
+}
+@media only screen and (min-width:2000px){
+
+}
+@media only screen and (max-width:767px){
+	#mynavbar-content ul > li > a > span, #mynavbar-content ul > li > a:hover > span{
+		display: none;
+	}
+	.navbar-default ul.navbar-nav > li > a, .navbar-default ul.navbar-nav > li > a:hover, .navbar-default ul.navbar-nav > li > a:focus{
+		padding: 10px 20px;
+	}
+	/*.underImage div{
+		padding: 10px 5px;
+	}*/  /** sowmya 130816 **/
+	.caption{
+		top: 20rem;	
+	}
+	.navbar-header h3{
+		 display: block;
+		 margin:15px;
+	 }
+
+}
+@media only screen and (max-width:481px){
+	body{
+		font-size: 12px;
+	}
+	.form-control{
+		font-size: 11px;
+		padding: 5px;
+	}
+	.selrow select{
+		margin: 10px 5px;
+		max-width: 130px;
+	}
+	.ftypeInfo{
+		min-height: 160px;
+		padding: 0 5px;
+	}
+	.btnRow button, .btnRow button:hover, .btnRow button:focus{
+		font-size: 10px; 
+	}
+	.caption{
+		top: 11rem;	
+	}
+	.designstu .featItems .caption{
+		top: 8rem;
+	}
+	.designstu .relfloorimgs .caption{
+		top: 11rem;
+	}
+	
+/** sowmya 130816 ** part 2 start **/
+	.hd-btn-group > .btn-secondary{
+		margin-right:2% !important;
+		display:block;
+	}
+	.hd-btn-group > .btn-with-popup{
+		display:table;
+		padding-top:10px !important;
+	}
+	.btn-with-popup div {
+	    padding: 0;
+	}
+	.btn-popup{
+		right: 2%;
+	    bottom: auto;
+	    box-shadow: 0px 3px 6px rgba(0,0,0,0.4);
+	    top: 110%;
+	}
+	.arrow_box:after, .arrow_box:before {
+		top:auto;
+		bottom: 100%;
+		left: 80%;
+	}
+	.arrow_box:after {
+		border-color: rgba(255, 255, 255, 0);
+		border-bottom-color: #ffffff;
+		margin-left: -15px;
+	}
+	.arrow_box:before {
+		border-color: rgba(204, 204, 204, 0);
+		border-bottom-color: #cccccc;
+		margin-left: -16px;
+	}
+/** sowmya 110816 ** part 2 end **/	
+
+}
+@media only screen and (max-width:420px){
+	.caption{
+		top: 8rem;	
+	}
+	.designstu .relfloorimgs .caption{
+		top: 7rem; 
+	}
+	.designstu .featItems .caption{
+		top: 4rem;
+	}
+}
+@media only screen and (device-width:768px){
+
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+}
